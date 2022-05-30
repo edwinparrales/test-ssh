@@ -1,0 +1,20 @@
+TIPOS DE PRODUCTO
+ROW_COD CODIGO   DESCRIPCION
+ 1      HDD      DISCO DURO MECANICO
+ 2      TEC-USB  TECLADO USB
+ 3      MOU-USB  MOUSE USB
+ 4      SDD      DISCO DE ESTADI SOLIDO
+ 5      CPU      MICRO PROCESADOR
+ 6      CASE     CHASIS TORRE ATX 
+ 6      CASE-M   CHASIS TORRE MICRO-ATX
+ 7      POW      FUENTE DE PODER ATX 
+ 7      POW-M    FUENTE DE PODER MICRO-ATX
+ 7      M-RAM    MEMORIA RAM
+        COMP-ESC COMPUTADOR DE ESCRITORIO}
+        MON-LED  MONITOR LED
+        MEM-USB  UNIDAD DE ALMACENAMIENTO USB 
+
+
+
+entrada de producro
+id_producto , caracteristicas ,  capacidad, marca, modelo, serial, numeroParte, fechaFab,rate ,valor 

@@ -1,0 +1,44 @@
+
+TIPOS DE DISPOSITIVOS 
+------------------------------------
+COD
+        TECLADO USB
+        MOUSE   USB
+        TECLADO INALAMBRICO 
+        MOUSE   INALAMBRICO
+4501    MEMORIA RAM PARA PC     
+        MEMORIA RAM  DDR4  PC2400   
+        MEMORIA RAM  DDR4  PC2600
+        MEMORIA RAM  DDR3  
+        MEMORIA RAM  DDR5 
+
+
+TIPOS DE PRODUCTOS (MEMORIAS RAM) 
+caracteristicas mas relevanetes de una memoria ram
+-------------------------------------------------------------------------------------------------------
+Codigo     Descripcion             Caracteristicas                     Marca                             Valor
+---------+------------------------+-------------------------+--------------------------------+----------
+1002       MEMORIA RAM ESCRITORIO  DDR4-2400 / PC4-19200  1200.0 MHZ   SAMSUNG ,KINSTON,HYNIX,CRUCIAL   $200.000
+1003       MEMORIA RAM ESCRITORIO  DDR4-2666 / PC4-21300  1333.3 MHZ   SAMSUNG ,KINSTON,HYNIX,CRUCIAL   $200.000
+
+1004       MEMORIA RAM PORTATIL    DDR4-2400 / PC4-19200  1200.0 MHZ   SAMSUNG ,KINSTON,HYNIX,CRUCIAL   $200.000
+
+Ingresar un producto
+
+roowid   Codigo    cantidad  Seriales   fecha
+3        1002         4                                     ---> Solicitar 4 seriales o codigos unicos para identificacion
+
+
+
+TIPOS DE PRODUCTOS (FUENTES DE VOLTAJE) 
+caracteristicas mas relevanetes de una FUENTE DE PODER
+-------------------------------------------------------------------------------------------------------
+Codigo     Descripcion             Caracteristicas                     Marca                             Valor
+---------+------------------------+-------------------------+--------------------------------+----------
+32000      FUENTE DE PODER ATX      700W 110V                       UNITEC                          $80.000
+
+
+
+
+
+

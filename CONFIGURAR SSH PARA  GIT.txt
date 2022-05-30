@@ -1,0 +1,45 @@
+git@github.com:edwinparrales/estudiosjunin.git
+
+Generar claves ssh actuales
+$ ssh-keygen -t ed25519-sk -C "your_email@example.com"
+----------------------------------------------------------------------------------------------
+Generar claves ssh pc antiguos
+Note: If you are using a legacy system that doesn't support the Ed25519 algorithm, use:
+
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+----------------------------------------------------------------------------------------------------
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+> Agent pid 59566
+
+$ ssh-add ~/.ssh/id_ed25519
+----------------------------------
+Adicionar la calve en la pagina de git hub
+----------------------------------------
+
+Posteriores ya se pueden clonar los repositorios via ssh;
+git clone git@github.com:edwinparrales/estudiosjunin.git
+
+
+
+
+
+--------------------------
+
+
+…or create a new repository on the command line
+echo "# test-ssh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:edwinparrales/test-ssh.git
+git push -u origin main
+
+----------------------------
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:edwinparrales/test-ssh.git
+git branch -M main
+git push -u origin mai
